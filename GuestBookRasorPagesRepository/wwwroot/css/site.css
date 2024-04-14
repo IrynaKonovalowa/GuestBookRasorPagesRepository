@@ -20,3 +20,51 @@ html {
 body {
   margin-bottom: 60px;
 }
+@font-face {
+    font-family: Kalnia;
+    src: url(Kalnia.TTF);
+}
+
+table {
+    max-width:1350px;
+    border-spacing: 0px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+tr {
+    border: 1px solid blue;    
+}
+
+.but {
+    
+    margin-left: 35px; 
+    margin-bottom:5px;
+}
+
+.name {
+    font-size: 32px;
+    color: rgb(175, 51, 130);
+    font-family: Kalnia;
+    text-shadow: 1px 2px 2px white;
+    width: max-content;
+    height: max-content;
+    margin-bottom: 30px;
+    padding: 3px;
+}
+
+.MyContainer {
+    background-color: white;
+    box-shadow: 0px 0px 20px lightgreen inset;
+    padding: 20px 20px 40px 20px;
+    margin: 0px;
+}
+.gif {
+    width: 200px;
+    height: 247px;
+    background-image: url(/Gif/Pen.gif);
+}
+.link{
+    font-weight:bold;
+    font-size: 20px;
+}
